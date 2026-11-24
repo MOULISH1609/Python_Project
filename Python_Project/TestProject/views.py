@@ -21,3 +21,5 @@ def new_url_view(request):
     return HttpResponse("this is the new URL")
 
 
+name = "Moulish"
+print(f"Hello {name}")
